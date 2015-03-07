@@ -1,0 +1,9 @@
+
+Keijut
+ - liikkuvat hiljalleen eteenpäin ennalta määrättyä reittiä
+Peli loppuu jos pelaaja tippuu ruudulta
+
+
+Character controllerissa step offsettia ja slope limittiä muokkaamalla sopiva arvo portaiden automaattiselle nousemiselle
+
+Jos kamera jossain välissä temppuilee (ei käännä suuntaa) niin kasvata käännöspisteen arvoa
