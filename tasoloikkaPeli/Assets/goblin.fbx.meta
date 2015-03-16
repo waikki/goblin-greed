@@ -1,0 +1,263 @@
+fileFormatVersion: 2
+guid: 35057fa7552bb934884fcfca2634fddb
+timeCreated: 1426487312
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: ctrl_L_foot
+    100002: ctrl_master
+    100004: ctrl_pelvis
+    100006: ctrl_R_foot
+    100008: ctrl_root
+    100010: //RootNode
+    100012: goblin_mesh
+    100014: grp_character
+    100016: grp_ctrl
+    100018: grp_joints
+    100020: grp_mesh
+    100022: grpCtrl_L_foot
+    100024: grpCtrl_pelvis
+    100026: grpCtrl_R_foot
+    100028: grpCtrl_root
+    100030: ik_L_foot
+    100032: ik_L_leg
+    100034: ik_L_toe
+    100036: ik_R_foot
+    100038: ik_R_leg
+    100040: ik_R_toe
+    100042: jnt_head
+    100044: jnt_L_leg_ankle
+    100046: jnt_L_leg_foot
+    100048: jnt_L_leg_knee
+    100050: jnt_L_leg_thigh
+    100052: jnt_pelvis
+    100054: jnt_R_leg_ankle
+    100056: jnt_R_leg_foot
+    100058: jnt_R_leg_knee
+    100060: jnt_R_leg_thigh
+    100062: jnt_spine_chest
+    100064: jnt_spine_stomach
+    100066: jntEnd_L_leg_toe
+    100068: jntEnd_R_leg_toe
+    100070: left
+    100072: loc_L_heel
+    100074: loc_L_tip
+    100076: loc_L_toe
+    100078: loc_R_heel1
+    100080: loc_R_tip
+    100082: loc_R_toe
+    400000: ctrl_L_foot
+    400002: ctrl_master
+    400004: ctrl_pelvis
+    400006: ctrl_R_foot
+    400008: ctrl_root
+    400010: //RootNode
+    400012: goblin_mesh
+    400014: grp_character
+    400016: grp_ctrl
+    400018: grp_joints
+    400020: grp_mesh
+    400022: grpCtrl_L_foot
+    400024: grpCtrl_pelvis
+    400026: grpCtrl_R_foot
+    400028: grpCtrl_root
+    400030: ik_L_foot
+    400032: ik_L_leg
+    400034: ik_L_toe
+    400036: ik_R_foot
+    400038: ik_R_leg
+    400040: ik_R_toe
+    400042: jnt_head
+    400044: jnt_L_leg_ankle
+    400046: jnt_L_leg_foot
+    400048: jnt_L_leg_knee
+    400050: jnt_L_leg_thigh
+    400052: jnt_pelvis
+    400054: jnt_R_leg_ankle
+    400056: jnt_R_leg_foot
+    400058: jnt_R_leg_knee
+    400060: jnt_R_leg_thigh
+    400062: jnt_spine_chest
+    400064: jnt_spine_stomach
+    400066: jntEnd_L_leg_toe
+    400068: jntEnd_R_leg_toe
+    400070: left
+    400072: loc_L_heel
+    400074: loc_L_tip
+    400076: loc_L_toe
+    400078: loc_R_heel1
+    400080: loc_R_tip
+    400082: loc_R_toe
+    4300000: goblin_mesh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: goblin_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_character
+        weight: 1
+      - path: grp_character/grp_ctrl
+        weight: 1
+      - path: grp_character/grp_ctrl/ctrl_master
+        weight: 1
+      - path: grp_character/grp_ctrl/ctrl_master/grpCtrl_L_foot
+        weight: 1
+      - path: grp_character/grp_ctrl/ctrl_master/grpCtrl_L_foot/ctrl_L_foot
+        weight: 1
+      - path: grp_character/grp_ctrl/ctrl_master/grpCtrl_L_foot/ctrl_L_foot/loc_L_heel
+        weight: 1
+      - path: grp_character/grp_ctrl/ctrl_master/grpCtrl_L_foot/ctrl_L_foot/loc_L_heel/ik_L_leg
+        weight: 1
+      - path: grp_character/grp_ctrl/ctrl_master/grpCtrl_L_foot/ctrl_L_foot/loc_L_heel/loc_L_tip
+        weight: 1
+      - path: grp_character/grp_ctrl/ctrl_master/grpCtrl_L_foot/ctrl_L_foot/loc_L_heel/loc_L_tip/ik_L_foot
+        weight: 1
+      - path: grp_character/grp_ctrl/ctrl_master/grpCtrl_L_foot/ctrl_L_foot/loc_L_heel/loc_L_tip/loc_L_toe
+        weight: 1
+      - path: grp_character/grp_ctrl/ctrl_master/grpCtrl_L_foot/ctrl_L_foot/loc_L_heel/loc_L_tip/loc_L_toe/ik_L_toe
+        weight: 1
+      - path: grp_character/grp_ctrl/ctrl_master/grpCtrl_R_foot
+        weight: 1
+      - path: grp_character/grp_ctrl/ctrl_master/grpCtrl_R_foot/ctrl_R_foot
+        weight: 1
+      - path: grp_character/grp_ctrl/ctrl_master/grpCtrl_R_foot/ctrl_R_foot/loc_R_heel1
+        weight: 1
+      - path: grp_character/grp_ctrl/ctrl_master/grpCtrl_R_foot/ctrl_R_foot/loc_R_heel1/ik_R_leg
+        weight: 1
+      - path: grp_character/grp_ctrl/ctrl_master/grpCtrl_R_foot/ctrl_R_foot/loc_R_heel1/loc_R_tip
+        weight: 1
+      - path: grp_character/grp_ctrl/ctrl_master/grpCtrl_R_foot/ctrl_R_foot/loc_R_heel1/loc_R_tip/ik_R_foot
+        weight: 1
+      - path: grp_character/grp_ctrl/ctrl_master/grpCtrl_R_foot/ctrl_R_foot/loc_R_heel1/loc_R_tip/loc_R_toe
+        weight: 1
+      - path: grp_character/grp_ctrl/ctrl_master/grpCtrl_R_foot/ctrl_R_foot/loc_R_heel1/loc_R_tip/loc_R_toe/ik_R_toe
+        weight: 1
+      - path: grp_character/grp_ctrl/ctrl_master/grpCtrl_root
+        weight: 1
+      - path: grp_character/grp_ctrl/ctrl_master/grpCtrl_root/ctrl_root
+        weight: 1
+      - path: grp_character/grp_ctrl/ctrl_master/grpCtrl_root/ctrl_root/grpCtrl_pelvis
+        weight: 1
+      - path: grp_character/grp_ctrl/ctrl_master/grpCtrl_root/ctrl_root/grpCtrl_pelvis/ctrl_pelvis
+        weight: 1
+      - path: grp_character/grp_joints
+        weight: 1
+      - path: grp_character/grp_joints/jnt_pelvis
+        weight: 1
+      - path: grp_character/grp_joints/jnt_pelvis/jnt_L_leg_thigh
+        weight: 1
+      - path: grp_character/grp_joints/jnt_pelvis/jnt_L_leg_thigh/jnt_L_leg_knee
+        weight: 1
+      - path: grp_character/grp_joints/jnt_pelvis/jnt_L_leg_thigh/jnt_L_leg_knee/jnt_L_leg_ankle
+        weight: 1
+      - path: grp_character/grp_joints/jnt_pelvis/jnt_L_leg_thigh/jnt_L_leg_knee/jnt_L_leg_ankle/jnt_L_leg_foot
+        weight: 1
+      - path: grp_character/grp_joints/jnt_pelvis/jnt_L_leg_thigh/jnt_L_leg_knee/jnt_L_leg_ankle/jnt_L_leg_foot/jntEnd_L_leg_toe
+        weight: 1
+      - path: grp_character/grp_joints/jnt_pelvis/jnt_R_leg_thigh
+        weight: 1
+      - path: grp_character/grp_joints/jnt_pelvis/jnt_R_leg_thigh/jnt_R_leg_knee
+        weight: 1
+      - path: grp_character/grp_joints/jnt_pelvis/jnt_R_leg_thigh/jnt_R_leg_knee/jnt_R_leg_ankle
+        weight: 1
+      - path: grp_character/grp_joints/jnt_pelvis/jnt_R_leg_thigh/jnt_R_leg_knee/jnt_R_leg_ankle/jnt_R_leg_foot
+        weight: 1
+      - path: grp_character/grp_joints/jnt_pelvis/jnt_R_leg_thigh/jnt_R_leg_knee/jnt_R_leg_ankle/jnt_R_leg_foot/jntEnd_R_leg_toe
+        weight: 1
+      - path: grp_character/grp_joints/jnt_pelvis/jnt_spine_stomach
+        weight: 1
+      - path: grp_character/grp_joints/jnt_pelvis/jnt_spine_stomach/jnt_spine_chest
+        weight: 1
+      - path: grp_character/grp_joints/jnt_pelvis/jnt_spine_stomach/jnt_spine_chest/jnt_head
+        weight: 1
+      - path: grp_character/grp_mesh
+        weight: 1
+      - path: grp_character/grp_mesh/goblin_mesh
+        weight: 1
+      - path: left
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

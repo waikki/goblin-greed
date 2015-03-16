@@ -18,6 +18,7 @@ public class SimpleER_Controller : MonoBehaviour {
 	
 	void Update() 
 	{
+		// Animator animator = GetComponentInChildren<Animator>();
 
 		if(Input.GetKey(KeyCode.R))
 		{
@@ -25,9 +26,17 @@ public class SimpleER_Controller : MonoBehaviour {
 		}
 
 		CharacterController controller = GetComponent<CharacterController> ();
-		
+
+		if (!controller.isGrounded)
+		{
+			
+//			animator.SetBool("run", false);
+			
+		}
+
 		if (controller.isGrounded) 
 		{
+//			animator.SetBool("run", true);
 
 			moveDirection = new Vector3 (-1f, 0f, 0f);
 			
